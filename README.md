@@ -5,7 +5,7 @@
   - *Images*: Cut the desired image and give it to Google Lens or AI chatbots to find the exact or similar one.
   - *Icons*: Try [this](https://composeicons.com/) or utilize an AI chatbot as you would for images.
   - *Colors*: Use color picker tools and name them with consideration for responsibility.
-  - *Font family: Use [this](https://fonts.google.com/) or utilize an AI chatbot to identify the name.
+  - *Font family*: Use [this](https://fonts.google.com/) or utilize an AI chatbot to identify the name.
   - **Why?** When building a design, your focus must only be on implementation, not anything else.
 
 ### Step 2: Put Related Ingredients Together
@@ -66,7 +66,7 @@
     }
     ```
 - First, create necessary data models and then a Composable function to avoid using hardcoded values inside the function.
-  - **Why?** Data and information drive our decisions and make it easy to change data, especially when defining previews.
+  - **Why?** Compose transforms data into visuals, making decision-making easier when you know the involved data.
 - Recognize component structure and write layout and element nodes with minimal configuration (i.e., only passing data to required arguments).
   - **Why?** This prevents you from having to redo configurations if they don't suit the next element.
   - **Example:**
@@ -138,6 +138,6 @@
       }
       ```
   - Finally, define mock data and preview components, and amend their code if necessary.
-    - **Why?** This way, minor changes won't require extensive adjustments.
+    - **Why?** This way, you catch bugs fast and resolve them faster.
   - Enjoy combining components and building the final screen.
     - **Why?** Because why not 😂
